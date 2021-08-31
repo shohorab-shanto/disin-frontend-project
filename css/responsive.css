@@ -1,0 +1,166 @@
+/* ============== responsive start ===============
+ */
+
+ /* responsive for small devices */
+ @media (max-width: 575px) {
+    .top{
+        display: none;
+    }
+     /* ========== slider_section start ==========  */
+     .slider_section .button-1{
+         margin-bottom: 15px;
+     }
+     .slider_section .carousel-item h1{
+         font-size: 23px;
+
+     }
+
+     /* about start  */
+     .about_content_area h3{
+         font-size: 20px;
+
+     }
+  
+
+    /* ========== gallery section start ==========  */
+    .gallery-control-btn {
+        padding: 0 30px;
+    }
+    .gallery-control-btn button {
+        margin: 10px auto;
+    }
+    /* gallery-item start */
+    .gallery-item {
+        width: 100%;
+        padding:10px;
+    }
+    /* ========== gallery section end ==========  */
+
+     /* ========== appointment section start ==========  */
+
+    .appointment-thumb{
+        display: none;
+    }
+    .appointment-details{
+        width: 100%;
+    }
+    .input-field-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .input-field {
+        width: 100%;
+        margin: 10px 20px 10px 0;
+        background: #1b1b1b;
+        border: none;
+        border-bottom: 2px solid#fff;
+        color: #fff;
+    }
+    .booking{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .booking-field {
+        width: 100%;
+        margin: 10px 20px 10px 0;
+        border: none;
+        background: #1b1b1b;
+        color: #fff;
+        border-bottom: 2px solid#fff;
+    }
+    /* ========== appointment section end ==========  */
+    .newslater-section{
+        width: 350px;
+
+    }
+    .newslater-section .sm{
+        display: block;
+
+
+
+    }
+    
+    .expertise-item .expertise-right {
+    padding-left: 0px;
+    position: relative;
+    width: 83%;
+    margin-left: -2px;
+    margin-top: -80px;
+}
+}
+
+
+ /* responsive for Medium devices and tablates */
+@media (min-width:575px) and (max-width: 768px) {
+    .top{
+        display: none;
+    }
+
+    /* ========== gallery section end ==========  */
+    .gallery-filter-btn {
+        
+    }
+    .gallery-filter-btn button {
+        margin: 10px auto;
+    }
+    /* gallery-item start */
+    .gallery-item {
+        width: calc(100%/3);
+        padding:10px;
+    }
+    /* ========== gallery section end ==========  */
+
+    /* ========== appointment section start ==========  */
+    .appointment-thumb{
+        display: none;
+    }
+    .appointment-details{
+        width: 100%;
+    }
+    .input-field-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .input-field {
+        width: 100%;
+        margin: 10px 20px 10px 0;
+        background: #1b1b1b;
+        border: none;
+        border-bottom: 2px solid#fff;
+        color: #fff;
+    }
+    .booking{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .booking-field {
+        width: 100%;
+        margin: 10px 20px 10px 0;
+        border: none;
+        background: #1b1b1b;
+        color: #fff;
+        border-bottom: 2px solid#fff;
+    }
+    
+    /* ========== appointment section end ==========  */
+}
+
+/* responsive for (laptops/desktops) */
+@media (min-width:900px) and (max-width: 1200px) {
+
+    /* ========== gallery section start ==========  */
+    .gallery-filter-btn {
+        
+    }
+    .gallery-filter-btn button {
+        margin: 10px auto;
+    }
+    /* ========== gallery section start ==========  */
+    
+}
+
+

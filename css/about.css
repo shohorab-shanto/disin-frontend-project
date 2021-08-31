@@ -1,0 +1,76 @@
+/*testimonial */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    font-family: lato bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.template{
+    width:960px;
+    margin:0 auto;
+}
+.clear{
+    overflow: hidden;
+}
+
+.maincontent{padding: 80px;}
+.mainimg img{
+	top:20%;
+    box-shadow: 20px 4px 19px 1px #999;
+    border: 2px solid #999;
+    float: left;
+    height: 409px;
+    width: 552px;
+    margin-right: 50px;
+}
+.rightside{
+    width: 100%;
+    padding: 50px;  
+}
+.rightside img{
+    background:green;
+    height:30px;
+    width: 40px;
+}
+.rightside p{
+    font-family:lobster;
+    font-size: 24px;
+    line-height: 38px;
+}
+.rightside h2{
+	color:#44bd32;
+	font-size:25px;
+}
+.rightside h4{
+	font-size:20px;
+}
+
+@media screen and (max-width: 600px){
+    .mainimg img{
+        height: 280px;
+        width: 400px;
+        margin-bottom: 50px;
+        margin-top: 5%;
+        top:5%;
+        margin-left: -20px;
+    }   
+}

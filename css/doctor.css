@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card{
+    height: 70px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 1s;
+    margin-top: 30px;
+}
+
+.card:hover{
+    background:  #16213e ;
+    color: aqua !important;
+    
+}
+.card a{
+    text-decoration: none;
+}
+.card h4{
+    color: black;
+    padding-top: 8px;
+}
+
+.card:hover{
+
+    color: green;
+    
+}
+.card i{
+    display: inline-block;
+}
+.container {
+    overflow: none;
+  }
+  
+.cnt1{
+    margin-bottom: 80px;
+}
+
+  .filterDiv {
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: linear-gradient(#1FA2FF,#00EBBA);
+    box-shadow: 0px 0px 10px 0px #c5c5c5;
+    color: black;
+    width: 265px !important;
+    height: 345px !important;
+    padding: 15px;
+    line-height: 290px;
+    text-align: center;
+    margin: 9px;
+    display: none; /* Hidden by default */
+  }
+  
+.btn-default{
+    width: 120px;
+    height: 50px;
+    background: #1FA29F;
+}
+.btn-default:hover{
+    background: #009999;
+}
+  .card-thumbnail {
+    max-height: 200px;
+    overflow: hidden;
+    background-image:white;
+    border-radius: 10px;
+    transition: 1s;
+}
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+ 
+
+  
+  /* Add a dark background to the active button */
+  
+
+  .filter-button
+  {
+      font-size: 18px !important;
+      border: 1px solid #009999 !important;
+      border-radius: 5px !important;
+      text-align: center !important;
+      color:  #16213e !important;
+      margin-bottom: 30px !important;
+      margin-right: 10px !important;
+    
+      
+  
+  }
+  .filter-button:hover
+  {
+      font-size: 18px !important;
+      border: 1px solid green !important;
+      border-radius: 5px !important;
+      text-align: center !important;
+      color: #ffffff !important;
+      background-color: #009999 !important;
+        transition: all 0.6s ease !important;
+  
+  }
+  /* .btn-default:active .filter-button:active
+  {
+      background-color: green;
+      color: white;
+  } */
+  
+.img-responsive{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: 250px;
+}
+ 
+.card-thumbnail:hover .img-responsive {
+    transform: scale(1.12);
+    
+}
+
+.container-fluid-1 {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/d5.jpg');
+    
+}
+
+.department {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.department h2 {
+    font-style: bold;
+}
+
+.gallery-title{
+    margin: 20px;
+}
+
+.card-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #c5c5c5;
+    margin-bottom: 30px;
+    float: left;
+    border-radius: 10px;
+}
+.card-box .card-thumbnail {
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+}
+.card-box .card-thumbnail:hover img {
+    transform: scale(1.06);
+}
+.card-box h3 a {
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+
+
+
+
+.card .iconx{
+    display: flex;
+    margin-left: 62px;
+    height: 12px;
+}
+.card .iconx i {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .filterDiv{
+        margin-left: 80px;
+    }
+    
+
+}
